@@ -1,6 +1,6 @@
-# Svelte + Vite
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f4f6f3ae-8275-4092-b199-2f3c1afb2639/deploy-status)](https://app.netlify.com/sites/kirbyrobinson/deploys)
 
-This template should help get you started developing with Svelte in Vite.
+# Svelte + Vite
 
 ## Recommended IDE Setup
 
@@ -42,6 +42,6 @@ If you have state that's important to retain within a component, consider creati
 ```js
 // store.js
 // An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
+import { writable } from "svelte/store";
+export default writable(0);
 ```
