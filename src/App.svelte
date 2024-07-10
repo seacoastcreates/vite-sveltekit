@@ -1,5 +1,4 @@
 <script>
-  import KRLogo from "./assets/KR-logo.webp";
   import Counter from "./lib/Counter.svelte";
   import Portfolio from "./lib/Portfolio.svelte";
   import Date from "./lib/Date.svelte";
@@ -11,9 +10,6 @@
 <Date />
 
 <main>
-  <div>
-    <img src={KRLogo} class="logo" alt="Vite Logo" />
-  </div>
   <h1>Kirby Robinson</h1>
   <h2>Full Stack Developer</h2>
 
