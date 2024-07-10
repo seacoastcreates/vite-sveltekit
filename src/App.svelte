@@ -7,7 +7,7 @@
   // let date;
 </script>
 
-<Toaster />
+<!-- <Toaster /> -->
 <Date />
 
 <main>
@@ -25,6 +25,10 @@
 </main>
 
 <style>
+  h1,
+  h2 {
+    color: rgb(40, 40, 40);
+  }
   .logo {
     display: none;
     height: 6em;
